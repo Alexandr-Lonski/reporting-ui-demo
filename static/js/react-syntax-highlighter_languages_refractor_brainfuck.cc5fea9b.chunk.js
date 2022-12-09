@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkdata_table_demo=self.webpackChunkdata_table_demo||[]).push([[5539],{92689:function(a){function e(a){a.languages.brainfuck={pointer:{pattern:/<|>/,alias:"keyword"},increment:{pattern:/\+/,alias:"inserted"},decrement:{pattern:/-/,alias:"deleted"},branching:{pattern:/\[|\]/,alias:"important"},operator:/[.,]/,comment:/\S+/}}a.exports=e,e.displayName="brainfuck",e.aliases=[]}}]);
-//# sourceMappingURL=react-syntax-highlighter_languages_refractor_brainfuck.cc5fea9b.chunk.js.map
