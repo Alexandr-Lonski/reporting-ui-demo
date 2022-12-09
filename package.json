@@ -1,8 +1,8 @@
 {
-  "name": "react-starterkit-app",
+  "name": "data-table-demo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://formio.github.io/react-app-starterkit",
+  "homepage": "https://alexandr-lonski.github.io/data-table-demo/",
   "dependencies": {
     "@formio/contrib": "^1.1.0",
     "@formio/react": "^5.2.4-rc.1",
@@ -26,7 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build; cd build; git init; git remote add origin git@github.com:formio/react-app-starterkit.git; git checkout -b gh-pages; git add -A; git commit -m 'Update demo application'; git push -f origin gh-pages;"
+    "deploy": "npm run build; cd build; git init; git remote add origin git@github.com:Alexandr-Lonski/data-table-demo.git; git checkout -b gh-pages; git add -A; git commit -m 'Update demo-app'; git push -f origin gh-pages;"
   },
   "eslintConfig": {
     "extends": [

@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Navigation/>
-      <Routes basename={'/react-app-starterkit'}>
+      <Routes basename={'/data-table-demo'}>
         <Route path='/' element={<Home />}></Route>
         <Route path='components' element={<Components />}></Route>
       </Routes>      
