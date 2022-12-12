@@ -1,20 +1,17 @@
-import './App.css';
+import './App.scss';
 import { Formio} from '@formio/react';
 import FormioContrib from '@formio/contrib';
 import Navigation from './components/Navigation';
-import { Route, Router, Routes } from 'react-router-dom';
-import Home from './components/Home';
+import { Route, Routes } from 'react-router-dom';
 import Components from './components/Components';
 Formio.use(FormioContrib);
 
 function App() {
-  console.log(FormioContrib);
   return (
     <div className="App">
       <Navigation/>
       <Routes basename={'/data-table-demo'}>
-        <Route path='/' element={<Home />}></Route>
-        <Route path='components' element={<Components />}></Route>
+        <Route path='/' element={<Components />}></Route>
       </Routes>      
     </div>
   );

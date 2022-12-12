@@ -1,17 +1,20 @@
 {
-  "name": "data-table-demo",
+  "name": "react-app-premium",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alexandr-lonski.github.io/data-table-demo/",
+  "homepage": " https://alexandr-lonski.github.io/data-table-demo",
   "dependencies": {
     "@formio/contrib": "^1.1.0",
+    "@formio/premium": "^1.18.6-rc.7",
     "@formio/react": "^5.2.4-rc.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
-    "boostrap": "^2.0.0",
-    "bootstrap": "^5.2.0",
+    "bootstrap": "4.6.2",
     "formiojs": "^4.14.7",
+    "gh-pages": "^4.0.0",
+    "jquery": "^3.6.1",
+    "moment": "^2.29.4",
     "react": "^18.1.0",
     "react-bootstrap": "^2.4.0",
     "react-code-blocks": "0.0.9-0",
@@ -22,11 +25,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "npm run build; cd build; git init; git remote add origin git@github.com:Alexandr-Lonski/data-table-demo.git; git checkout -b gh-pages; git add -A; git commit -m 'Update demo-app'; git push -f origin gh-pages;"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.56.2"
   }
 }

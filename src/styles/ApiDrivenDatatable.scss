@@ -1,0 +1,90 @@
+.api-driven-data-source{
+  position: relative;
+  border-radius: 2px;
+}
+.btn-submit-test {
+}
+.form-group {
+  margin-bottom: 5px;
+}
+.col-form-label {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  line-height: 1;
+}
+.data-table{
+  position: relative;
+  margin-bottom: 100px;
+  border-radius: 2px;
+  min-height: 20%;
+}
+.data-table-alert {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+.advanced-header-wrapper span.mr-1{
+  width: 135px !important;
+}
+.item-name{
+  font-size: 16px;
+}
+div.spinner-grow {
+  position: absolute;
+  top: 47%;
+  left: 47%;
+}
+.data-grid {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.tab-content {
+  height: 150vh;
+}
+.data-table-custom {
+  .btn-outline-secondary {
+    border-color: transparent;
+  }
+  .btn {
+    padding: 10px ;
+    border: none;
+    background-color: transparent;
+    font-size: 20px
+  }
+  .input-group .input-group-text {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    text-align: center;
+  }
+  .input-group .form-control {
+    border: 1px solid grey;
+    background-color: transparent;
+    width: 65px !important;
+    padding: 0 0 0 8px;
+    margin: 4px;
+    height: 28px;
+    border-radius: 0;
+  }
+  .ml-auto {
+    margin: 0;
+  }
+  .mb-3 {
+    margin-bottom: 0 !important;
+  }
+  .btn, mr-5 {
+    margin: 0 !important;
+  }
+}
+.card-body{
+  padding: 5px;
+}
+.formio-form {
+  min-height: 51px;
+}
