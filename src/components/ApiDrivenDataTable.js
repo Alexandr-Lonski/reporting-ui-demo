@@ -10,7 +10,6 @@ const ApiDrivenDataTable = () => {
   const dataTableRef = useRef();
   const filtersTableRef = useRef();
   const [loading, setLoading] = useState(false);
-  const [clearing, setClearing] = useState(false);
   const [selectedColumns, setColumns] = useState(localStorage.getItem('columns') ? JSON.parse(localStorage.getItem('columns')) : []);
   const filtersObj = localStorage.getItem('filters') ? JSON.parse(localStorage.getItem('filters')) : {};
   const queryParam = createFiltersQuery(JSON.parse(localStorage.getItem('filters')));
@@ -57,12 +56,10 @@ const ApiDrivenDataTable = () => {
                 rel="noreferrer">Api driven Data Table documentation</a></p>
      
           <div className='api-driven-data-source'>
-            {clearing && <Spinner animation="grow"/>}
-            {!clearing &&
               <FiltersTable createFiltersQuery={createFiltersQuery} filtersObj={filtersObj}
                             filtersTableRef={filtersTableRef} setFiltersQuery={setFiltersQuery} setLoading={setLoading}
-                            setColumns={setColumns} setClearing={setClearing}/>
-            }
+                            setColumns={setColumns} />
+            {/*}*/}
           </div>
           <div className="data-table">
             {loading && <Spinner animation="grow"/>}

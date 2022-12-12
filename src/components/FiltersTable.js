@@ -1,7 +1,7 @@
 import { Form } from "@formio/react"
 import {Utils} from "formiojs";
 
-const FiltersTable = ({filtersTableRef, setLoading, filtersObj, setFiltersQuery, createFiltersQuery, setColumns, setClearing}) => {
+const FiltersTable = ({filtersTableRef, setLoading, filtersObj, setFiltersQuery, createFiltersQuery, setColumns }) => {
   return (
     <Form id='api-driven-data-source' src="https://qxrqjwqmwurwxqy.form.io/filters" formReady={(form) => {
       filtersTableRef.current = form;
@@ -21,12 +21,11 @@ const FiltersTable = ({filtersTableRef, setLoading, filtersObj, setFiltersQuery,
       })
       form.on('clear', () => {
         setLoading(true);
-        setClearing(true);
         setFiltersQuery('');
-        localStorage.clear('filters');
+        form.setSubmission({data: {...form.submission.data, filters: {}}});
+        localStorage.setItem('filters', JSON.stringify([]));
         setTimeout(() => {
           setLoading(false);
-          setClearing(false);
         }, )
       })
       form.on('apply', () => {
