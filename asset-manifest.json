@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/data-table-demo/static/css/main.281e2991.css",
+    "main.js": "/data-table-demo/static/js/main.ecbca43a.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/data-table-demo/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/data-table-demo/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/data-table-demo/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/data-table-demo/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/data-table-demo/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/Light-Background.png": "/data-table-demo/static/media/Light-Background.4d9568a43e589049959e.png",
+    "index.html": "/data-table-demo/index.html",
+    "main.281e2991.css.map": "/data-table-demo/static/css/main.281e2991.css.map",
+    "main.ecbca43a.js.map": "/data-table-demo/static/js/main.ecbca43a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.281e2991.css",
+    "static/js/main.ecbca43a.js"
+  ]
+}
