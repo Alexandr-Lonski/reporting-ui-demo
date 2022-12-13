@@ -59,7 +59,6 @@ const ApiDrivenDataTable = () => {
               <FiltersTable createFiltersQuery={createFiltersQuery} filtersObj={filtersObj}
                             filtersTableRef={filtersTableRef} setFiltersQuery={setFiltersQuery} setLoading={setLoading}
                             setColumns={setColumns} />
-            {/*}*/}
           </div>
           <div className="data-table">
             {loading && <Spinner animation="grow"/>}
