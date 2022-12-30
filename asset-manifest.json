@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/data-table-demo/static/css/main.845e3c22.css",
-    "main.js": "/data-table-demo/static/js/main.379ff7f0.js",
+    "main.css": "/data-table-demo/static/css/main.deaecb4f.css",
+    "main.js": "/data-table-demo/static/js/main.cb336386.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/data-table-demo/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/data-table-demo/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/data-table-demo/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
@@ -9,11 +9,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/data-table-demo/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/Light-Background.png": "/data-table-demo/static/media/Light-Background.4d9568a43e589049959e.png",
     "index.html": "/data-table-demo/index.html",
-    "main.845e3c22.css.map": "/data-table-demo/static/css/main.845e3c22.css.map",
-    "main.379ff7f0.js.map": "/data-table-demo/static/js/main.379ff7f0.js.map"
+    "main.deaecb4f.css.map": "/data-table-demo/static/css/main.deaecb4f.css.map",
+    "main.cb336386.js.map": "/data-table-demo/static/js/main.cb336386.js.map"
   },
   "entrypoints": [
-    "static/css/main.845e3c22.css",
-    "static/js/main.379ff7f0.js"
+    "static/css/main.deaecb4f.css",
+    "static/js/main.cb336386.js"
   ]
 }
