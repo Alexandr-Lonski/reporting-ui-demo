@@ -35,13 +35,7 @@ div.spinner-grow {
   top: 47%;
   left: 47%;
 }
-.data-grid {
-  display: flex;
-  flex-direction: column-reverse;
-}
-.tab-content {
-  height: 150vh;
-}
+
 .data-table-custom {
   .btn-outline-secondary {
     border-color: transparent;
@@ -92,4 +86,12 @@ div.spinner-grow {
   .card-header {
     margin-bottom: 20px;
   }
+}
+.advanced-header-wrapper {
+  .d-flex {
+    display: none !important;
+  }
+}
+.action-loading {
+  z-index: 1;
 }

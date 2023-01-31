@@ -1,9 +1,20 @@
 import { Form } from "@formio/react"
 import {Utils} from "formiojs";
+import { useEffect, useRef } from "react";
 
-const FiltersTable = ({filtersTableRef, setLoading, filtersObj, setFiltersQuery, createFiltersQuery, setColumns }) => {
+const FiltersTable = ({ setLoading, filtersObj, setFiltersQuery, createFiltersQuery, setColumns, submissions, setLoadingFilter }) => {
+  const filtersTableRef = useRef();
+
+  // useEffect(() => {
+  //   console.log(2222)
+  //   if (filtersTableRef.current) {
+  //     console.log(11111, filtersTableRef);
+  //     filtersTableRef.current.rebuild();
+  //   }
+  // }, [submissions])
+
   return (
-    <Form id='api-driven-data-source' src="https://qxrqjwqmwurwxqy.form.io/filters" formReady={(form) => {
+    <Form ref={filtersTableRef} id='api-driven-data-source' src="https://qxrqjwqmwurwxqy.form.io/filters" formReady={(form) => {
       filtersTableRef.current = form;
       if (filtersObj) {
         Utils._.forEach(form.submission.data.filters, function (value, key) {
@@ -34,7 +45,11 @@ const FiltersTable = ({filtersTableRef, setLoading, filtersObj, setFiltersQuery,
         setColumns(localStorage.getItem("columns"));
         setTimeout(() => {
           setLoading(false);
-        }, 100)
+        }, )
+      })
+      form.on('action', () => {
+        console.log(form.data.action)
+        console.log(submissions);
       })
 
     }}/>
