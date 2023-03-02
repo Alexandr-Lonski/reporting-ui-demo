@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/data-table-demo/static/css/main.cbbe7393.css",
-    "main.js": "/data-table-demo/static/js/main.443966ba.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/data-table-demo/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/fontawesome-webfont.eot": "/data-table-demo/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/data-table-demo/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/data-table-demo/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/data-table-demo/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/Light-Background.png": "/data-table-demo/static/media/Light-Background.4d9568a43e589049959e.png",
-    "index.html": "/data-table-demo/index.html",
-    "main.cbbe7393.css.map": "/data-table-demo/static/css/main.cbbe7393.css.map",
-    "main.443966ba.js.map": "/data-table-demo/static/js/main.443966ba.js.map"
+    "main.css": "/reporting-ui-demo/static/css/main.72c278a7.css",
+    "main.js": "/reporting-ui-demo/static/js/main.31635afd.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/reporting-ui-demo/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/reporting-ui-demo/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/reporting-ui-demo/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/reporting-ui-demo/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/reporting-ui-demo/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/Light-Background.png": "/reporting-ui-demo/static/media/Light-Background.4d9568a43e589049959e.png",
+    "index.html": "/reporting-ui-demo/index.html",
+    "main.72c278a7.css.map": "/reporting-ui-demo/static/css/main.72c278a7.css.map",
+    "main.31635afd.js.map": "/reporting-ui-demo/static/js/main.31635afd.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbbe7393.css",
-    "static/js/main.443966ba.js"
+    "static/css/main.72c278a7.css",
+    "static/js/main.31635afd.js"
   ]
 }
