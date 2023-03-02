@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reporting-ui-demo/static/css/main.72c278a7.css",
-    "main.js": "/reporting-ui-demo/static/js/main.31635afd.js",
+    "main.css": "/reporting-ui-demo/static/css/main.24ba7c99.css",
+    "main.js": "/reporting-ui-demo/static/js/main.67f3bd8c.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/reporting-ui-demo/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/reporting-ui-demo/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/reporting-ui-demo/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
@@ -9,11 +9,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/reporting-ui-demo/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/Light-Background.png": "/reporting-ui-demo/static/media/Light-Background.4d9568a43e589049959e.png",
     "index.html": "/reporting-ui-demo/index.html",
-    "main.72c278a7.css.map": "/reporting-ui-demo/static/css/main.72c278a7.css.map",
-    "main.31635afd.js.map": "/reporting-ui-demo/static/js/main.31635afd.js.map"
+    "main.24ba7c99.css.map": "/reporting-ui-demo/static/css/main.24ba7c99.css.map",
+    "main.67f3bd8c.js.map": "/reporting-ui-demo/static/js/main.67f3bd8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.72c278a7.css",
-    "static/js/main.31635afd.js"
+    "static/css/main.24ba7c99.css",
+    "static/js/main.67f3bd8c.js"
   ]
 }
